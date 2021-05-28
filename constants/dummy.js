@@ -12,7 +12,7 @@ export const trendingCurrencies = [
         amount: "29,455.74",
         changes: "+7.24%",
         type: "I",      // I - Increased, D - Decreased
-        description: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software.",
+        description: "Bitcoin é uma criptomoeda inventada em 2008 por uma pessoa desconhecida ou grupo de pessoas que usa o nome Satoshi Nakamoto. A moeda começou a ser usada em 2009, quando sua implementação foi lançada como software de código aberto.",
         chartData: [
             { x: 1, y: 2.5 },
             { x: 1.5, y: 2 },
@@ -29,15 +29,15 @@ export const trendingCurrencies = [
         transactionHistory: [
             {
                 id: 1,
-                description: "Sold Bitcoin",
+                description: "Vendeu Bitcoin",
                 amount: -2.0034,
                 currency: "BTC",
-                type: "S",      // S - Sold, B - Bought
+                type: "S",      // S - Vendeu, B - Comprou
                 date: "14:20 12 Apr"
             },
             {
                 id: 2,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -45,7 +45,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 3,
-                description: "Sold Bitcoin",
+                description: "Vendeu Bitcoin",
                 amount: -2.0034,
                 currency: "BTC",
                 type: "S",
@@ -53,7 +53,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 4,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -61,7 +61,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 5,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -70,7 +70,7 @@ export const trendingCurrencies = [
 
             {
                 id: 6,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -78,7 +78,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 7,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -86,7 +86,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 8,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -94,7 +94,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 9,
-                description: "Bought Bitcoin",
+                description: "Comprou Bitcoin",
                 amount: 2.0034,
                 currency: "BTC",
                 type: "B",
@@ -110,7 +110,7 @@ export const trendingCurrencies = [
         amount: "919.03",
         changes: "-0.73%",
         type: "D",
-        description: "Ethereum is a decentralized, open-source blockchain featuring smart contract functionality. Ether is the native cryptocurrency of the platform. It is the second-largest cryptocurrency by market capitalization, after Bitcoin. Ethereum is the most actively used blockchain.",
+        description: "Ethereum é uma blockchain descentralizada e de código aberto com funcionalidade de contrato inteligente. Ether é a criptomoeda nativa da plataforma. É a segunda maior criptomoeda por capitalização de mercado, depois do Bitcoin. Ethereum é a blockchain mais ativamente usada.",
         chartData: [
             { x: 1, y: 2 },
             { x: 1.5, y: 2.3 },
@@ -127,15 +127,15 @@ export const trendingCurrencies = [
         transactionHistory: [
             {
                 id: 1,
-                description: "Sold Ethereum",
+                description: "Vendeu Ethereum",
                 amount: -2.0034,
                 currency: "ETH",
-                type: "S",      // S - Sold, B - Bought
+                type: "S",      // S - Vendeu, B - Comprou
                 date: "14:20 12 Apr"
             },
             {
                 id: 2,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -143,7 +143,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 3,
-                description: "Sold Ethereum",
+                description: "Vendeu Ethereum",
                 amount: -2.0034,
                 currency: "ETH",
                 type: "S",
@@ -151,7 +151,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 4,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -159,7 +159,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 5,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -168,7 +168,7 @@ export const trendingCurrencies = [
 
             {
                 id: 6,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -176,7 +176,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 7,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -184,7 +184,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 8,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -192,7 +192,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 9,
-                description: "Bought Ethereum",
+                description: "Comprou Ethereum",
                 amount: 2.0034,
                 currency: "ETH",
                 type: "B",
@@ -208,7 +208,7 @@ export const trendingCurrencies = [
         amount: "118.33",
         changes: "+1.73%",
         type: "I",
-        description: "Litecoin is a peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license. Litecoin was an early bitcoin spinoff or altcoin, starting in October 2011. In technical details, Litecoin is nearly identical to Bitcoin.",
+        description: "Litecoin é uma criptomoeda ponto a ponto e um projeto de software de código aberto lançado sob a licença MIT / X11. Litecoin foi o primeiro spinoff do bitcoin ou altcoin, começando em outubro de 2011. Em detalhes técnicos, Litecoin é quase idêntico ao Bitcoin.",
         chartData: [
             { x: 1, y: 2.6 },
             { x: 1.5, y: 2.2 },
@@ -225,15 +225,15 @@ export const trendingCurrencies = [
         transactionHistory: [
             {
                 id: 1,
-                description: "Sold Litecoin",
+                description: "Vendeu Litecoin",
                 amount: -2.0034,
                 currency: "LTC",
-                type: "S",      // S - Sold, B - Bought
+                type: "S",      // S - Vendeu, B - Comprou
                 date: "14:20 12 Apr"
             },
             {
                 id: 2,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -241,7 +241,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 3,
-                description: "Sold Litecoin",
+                description: "Vendeu Litecoin",
                 amount: -2.0034,
                 currency: "LTC",
                 type: "S",
@@ -249,7 +249,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 4,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -257,7 +257,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 5,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -265,7 +265,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 6,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -273,7 +273,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 7,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -281,7 +281,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 8,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -289,7 +289,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 9,
-                description: "Bought Litecoin",
+                description: "Comprou Litecoin",
                 amount: 2.0034,
                 currency: "LTC",
                 type: "B",
@@ -305,7 +305,7 @@ export const trendingCurrencies = [
         amount: "0.24",
         changes: "-0.51%",
         type: "D",
-        description: "Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company.",
+        description: "Ripple é um sistema de liquidação bruta em tempo real, troca de moeda e rede de remessas criado pela Ripple Labs Inc., uma empresa de tecnologia com sede nos Estados Unidos.",
         chartData: [
             { x: 1, y: 2.3 },
             { x: 1.5, y: 2.3 },
@@ -322,15 +322,15 @@ export const trendingCurrencies = [
         transactionHistory: [
             {
                 id: 1,
-                description: "Sold Ripple",
+                description: "Vendeu Ripple",
                 amount: -2.0034,
                 currency: "XRP",
-                type: "S",      // S - Sold, B - Bought
+                type: "S",      // S - Vendeu, B - Comprou
                 date: "14:20 12 Apr"
             },
             {
                 id: 2,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -338,7 +338,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 3,
-                description: "Sold Ripple",
+                description: "Vendeu Ripple",
                 amount: -2.0034,
                 currency: "XRP",
                 type: "S",
@@ -346,7 +346,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 4,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -354,7 +354,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 5,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -362,7 +362,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 6,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -370,7 +370,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 7,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -378,7 +378,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 8,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -386,7 +386,7 @@ export const trendingCurrencies = [
             },
             {
                 id: 9,
-                description: "Bought Ripple",
+                description: "Comprou Ripple",
                 amount: 2.0034,
                 currency: "XRP",
                 type: "B",
@@ -399,15 +399,15 @@ export const trendingCurrencies = [
 export const transactionHistory = [
     {
         id: 1,
-        description: "Sold Ethereum",
+        description: "Vendeu Ethereum",
         amount: -2.0034,
         currency: "ETH",
-        type: "S",      // S - Sold, B - Bought
+        type: "S",      // S - Vendeu, B - Comprou
         date: "14:20 12 Apr"
     },
     {
         id: 2,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -415,7 +415,7 @@ export const transactionHistory = [
     },
     {
         id: 3,
-        description: "Sold Ethereum",
+        description: "Vendeu Ethereum",
         amount: -2.0034,
         currency: "ETH",
         type: "S",
@@ -423,7 +423,7 @@ export const transactionHistory = [
     },
     {
         id: 4,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -431,7 +431,7 @@ export const transactionHistory = [
     },
     {
         id: 5,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -440,7 +440,7 @@ export const transactionHistory = [
 
     {
         id: 6,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -448,7 +448,7 @@ export const transactionHistory = [
     },
     {
         id: 7,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -456,7 +456,7 @@ export const transactionHistory = [
     },
     {
         id: 8,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -464,7 +464,7 @@ export const transactionHistory = [
     },
     {
         id: 9,
-        description: "Bought Ethereum",
+        description: "Comprou Ethereum",
         amount: 2.0034,
         currency: "ETH",
         type: "B",
@@ -475,23 +475,23 @@ export const transactionHistory = [
 const chartOptions = [
     {
         id: 1,
-        label: "1 hr"
+        label: "1 Hora"
     },
     {
         id: 2,
-        label: "3 Days"
+        label: "3 Dias"
     },
     {
         id: 3,
-        label: "1 Week"
+        label: "1 Semana"
     },
     {
         id: 4,
-        label: "1 Month"
+        label: "1 Mês"
     },
     {
         id: 5,
-        label: "3 Months"
+        label: "3 Mêses"
     }
 ]
 

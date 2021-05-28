@@ -8,12 +8,17 @@ import {
   FlatList,
   Image,
   ImageBackground,
+  LogBox
 } from "react-native";
-
 import { dummyData, COLORS, SIZES, FONTS, icons, images } from "../constants";
-
+import { PriceAlert, TransactionHistory } from "../components";
 const Home = ({ navigation }) => {
+
   const [trending, setTrending] = React.useState(dummyData.trendingCurrencies);
+  const [transactionHistory, setTransactionHistory] = React.useState(dummyData.transactionHistory);
+  React.useEffect(() => {
+    LogBox.ignoreLogs(['VirtualizedLists should never be nested'])
+  }, [])
   function renderHeader() {
     const renderItem = ({ item, index }) => (
       <TouchableOpacity
@@ -26,6 +31,7 @@ const Home = ({ navigation }) => {
           borderRadius: 10,
           backgroundColor: COLORS.white,
         }}
+        onPress={() => navigation.navigate("CryptoDetail", {currency: item})}
       >
         {/* moeda */}
         <View style={{ flexDirection: "row" }}>
@@ -49,8 +55,15 @@ const Home = ({ navigation }) => {
         </View>
         {/* valor */}
         <View style={{ marginTop: SIZES.radius }}>
-          <Text style={{...FONTS.h2,}}>${item.amount}</Text>
-          <Text style={{ color: item.type == "I" ? COLORS.green : COLORS.red, ...FONTS.h3}}>{item.changes}</Text>
+          <Text style={{ ...FONTS.h2 }}>${item.amount}</Text>
+          <Text
+            style={{
+              color: item.type == "I" ? COLORS.green : COLORS.red,
+              ...FONTS.h3,
+            }}
+          >
+            {item.changes}
+          </Text>
         </View>
       </TouchableOpacity>
     );
@@ -120,6 +133,7 @@ const Home = ({ navigation }) => {
               renderItem={renderItem}
               keyExtractor={(item) => `${item.id}`}
               showsHorizontalScrollIndicator={false}
+              horizontal
             />
           </View>
         </ImageBackground>
@@ -127,8 +141,49 @@ const Home = ({ navigation }) => {
     );
   }
   function renderAlert() {
+    return <PriceAlert />;
+  }
+  function renderNotice() {
+    return (
+      <View
+        style={{
+          marginTop: SIZES.padding,
+          marginHorizontal: SIZES.padding,
+          padding: 20,
+          borderRadius: SIZES.radius,
+          backgroundColor: COLORS.secondary,
+          ...styles.shadow,
+        }}
+      >
+        <Text style={{ color: COLORS.white, ...FONTS.h3 }}>
+          {" "}
+          Investimento seguro{" "}
+        </Text>
+        <Text
+          style={{
+            marginTop: SIZES.base,
+            ...FONTS.h4,
+            color: COLORS.white,
+          }}
+        >         
+          É muito difícil cronometrar um investimento, especialmente quando o
+          mercado está volátil, aprenda a usar a média de custo em dólar a seu
+          favor
+        </Text>
+        <TouchableOpacity style={{marginTop: SIZES.base,}}
+        onPress={() => console.log("Aprenda mais")}
+        >
+          <Text style={{textDecorationLine:'underline', color: COLORS.green, ...FONTS.h3}}>Aprenda mais</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+  function renderTransactionHistory(){
     return(
-      <PriceAlert/>
+      <TransactionHistory
+      customContainerStyle={{...styles.shadow}}
+      history={transactionHistory}
+      />
     )
   }
   return (
@@ -136,8 +191,9 @@ const Home = ({ navigation }) => {
       <View style={{ flex: 1, paddingBottom: 130 }}>
         {renderHeader()}
         {renderAlert()}
-
-        </View>
+        {renderNotice()}
+        {renderTransactionHistory()}
+      </View>
     </ScrollView>
   );
 };

@@ -24,14 +24,22 @@ const PriceAlert = ({customContainerStyle}) =>{
                 height: 30,
             }}
             />
-            <View>
-                <Text>
-                   {/* PAREI AQUI 45:21  */}
+            <View style={{flex: 1, marginLeft: SIZES.radius}}>
+                <Text style={{...FONTS.h3}}>
+                   Definir alerta de preço
                 </Text>
-                <Text>
-
+                <Text style={{...FONTS.body4}}>
+                    Seja notificado quando suas moedas estiverem mudando
                 </Text>
             </View>
+            <Image
+            source={icons.right_arrow}
+            style={{
+                width: 25,
+                height: 25,
+                tintColor: COLORS.gray,
+            }}
+            />
         </TouchableOpacity>
     )
 }
